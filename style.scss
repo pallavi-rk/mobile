@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rounded{
+    width: 16vw;
+height: 10vw;
+}
+ .rounded1{
+    width: 65vw;
+    height: 53vw;
+ }
+.h1{
+    position: absolute;
+    left: 31vw;
+    top: 16vw;
+    font-size: large;
+    font-weight: bold;
+}
+.lead{
+    position: absolute;
+    left: 32vw;
+    top: 29vw;
+    font-size:3.1vw;
+}
+.btn{
+    position: absolute;
+    box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+    border-radius: 2.3vw;
+    left: 56vw;
+    top: 58vw;
+}
+.wave{
+    position: absolute;
+    top: 56vw;
+    // height: 22vw;
+    // left: 1vw;
+}
+.h2,.h3,.h4,.h6{
+    position: absolute;
+font-size: 3vw;
+font-weight: bold;
+left: 8vw;
+}
+.h2{
+    top: 71vw;
+}
+.h3{
+    top: 134vw;
+}
+.h4{
+    top: 217vw;
+left: 10vw;
+}
+.h5{
+    position: absolute;
+    top: 311vw;
+    left: 27vw;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.h6{
+    top: 380vw;
+}
+.box{
+    position: absolute;
+top: 77.8vw;
+width: 99.9vw;
+height: 51.6vw;
+background: #F8FAFC 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.wave2{
+    position: absolute;
+top: 129vw;
+height: 22.2vw;
+}
+.carousel {
+    position: absolute;
+    top: 80.8vw;
+    left: 8.5vw;
+    width: 78.3vw;
+    height: 25.9vw;
+    border-radius: 4.2vw;
+    opacity: 1;
+  }
+  .card{
+   left: 10vw;
+  }
+  .card-title{
+    width: 36vw;
+    left: 8vw;
+    position: absolute;
+  }
+  .card-text{
+    width: 52vw;
+  padding-top: 5vw;
+  }
+  .girl,.boy,.girl3 {
+    position: absolute;
+    top: 141vw;
+    width: 17.2vw;
+    height: 16.2vw;
+    left: 69.5vw;
+  }
+  .girl{
+    top: 141vw;
+  }
+  .boy {
+    top: 165vw;
+  }
+  .girl3 {
+    top: 189vw;
+  }
+  .title1,.title2,.title3 {
+    position: absolute;
+    text-align: center;
+    font: normal normal bold 2vw/1.7vw Nunito Sans;
+    letter-spacing: 0vw;
+    color: #000000;
+    opacity: 1;
+    width: 23.5vw;
+    height: 1.7vw;
+    left: 68.5vw;
+  }
+  .title1{
+    top: 159vw;
+  }
+  .title2{
+  top: 183vw;
+  }
+  .title3{
+top: 207vw;
+  }
+  .lead1,.lead2,.lead3{
+position: absolute;
+width: 76vw;
+font-size: 2.1vw;
+left: 15vw;
+
+  }
+  .lead1{
+    top: 141vw;
+  }
+  .lead2{
+    top: 165vw;
+  }
+  .lead3{
+    top: 189vw;
+  }
+  .pic1,.pic2,.pic3,.pic4{
+    position: absolute;
+left: 10.5vw;
+width: 9vw;
+}
+.pic1{
+    top: 227vw;  
+}
+.pic2{
+    top: 248vw;  
+}
+.pic3{
+    top: 268vw;  
+}
+.pic4{
+    top: 288vw;  
+}
+.title4,.title5,.title6,.title7{
+    position: absolute;
+    left: 23.5vw;
+    font-weight: bold;
+    font-size: 2.9vw;
+}
+.title4{
+    top: 226vw;
+}
+.title5{
+    top: 246vw;
+}
+.title6{
+    top: 266vw;
+}
+.title7{
+    top: 286vw;
+}
+.lead4,.lead5,.lead6,.lead7{
+    position: absolute;
+    left: 23.5vw;
+    line-height: 3vw;
+    font-size: 2.6vw;
+      }
+      .lead4{
+        top: 231vw;
+      }
+      .lead5{
+        top: 251vw;
+      }
+      .lead6{
+        top: 271vw;
+      }
+      .lead7{
+        top: 291vw;
+      }
+      .btn1,.btn2,.btn3,.btn4{
+        position: absolute;
+        left: 52.5vw;
+        width: 23.7vw;
+        height: 6.8vw;
+        font-size: 2.5vw;
+      }
+      .btn1{
+        top: 238vw;
+      }
+      .btn2{
+        top: 258vw;
+      }
+      .btn3{
+        top: 278vw;
+      }
+      .btn4{
+        top: 298vw;
+      }
+      .con{
+        position: absolute;
+        top: 321vw;
+        left: 10.5vw;
+        width: 78.3vw;
+        height: 44vw;
+        background: #F8FAFC 0% 0% no-repeat padding-box;
+        box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+        border-radius: 4.2vw;
+        opacity: 1;
+      }
+      .con1{
+        left: 10vw;
+        position:absolute;
+      }
+      .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon 
+      {
+        filter: invert(1) grayscale(100);
+        top: 16vw !important;
+        position: absolute !important;
+        width: 4vw;
+      }
+      .conbtn{
+        position: absolute !important;
+        width: 4vw !important;
+      }
+     .carl{
+        position: absolute;
+     }
+     .card{
+      width: 60vw !important;
+     }
+//      .cal1{
+//         // position: absolute;
+//         top: 279.6vw;
+//         left: 14.5vw;
+//         width: 20.3vw;
+//         height: 18.7vw;
+//         background: #FFFFFF 0% 0% no-repeat padding-box;
+//         box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+//         border-radius: 2.1vw;
+//         opacity: 1;
+// }
+// .cal2{
+//     // position: absolute;
+//     top: 279.6vw;
+//     left: 38vw;
+//     width: 20.3vw;
+//     height: 18.7vw;
+//     background: #FFFFFF 0% 0% no-repeat padding-box;
+//     box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+//     border-radius: 2.1vw;
+//     opacity: 1;
+//   }
+  
+//   .cal3 {
+//     // position: absolute;
+//     top: 279.6vw;
+//     left: 61.2vw;
+//     width: 20.3vw;
+//     height: 18.7vw;
+//     background: #FFFFFF 0% 0% no-repeat padding-box;
+//     box-shadow: 0vw 1.1vw 3.4vw rgba(0, 0, 0, 0.1607843137);
+//     border-radius: 2.1vw;
+//     opacity: 1;
+//   }
+.inside{
+overflow: hidden !important;
+top: 247vw;
+left: 2vw;
+}
+.face1{
+  position: absolute;
+  left: 4vw;
+  width: 8vw;
+  top: 3vw;
+}
+.name1{
+    position: absolute;
+    left: 15vw;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.des1{
+    position: absolute;
+    left: 15vw;
+    font-size: 2.1vw;
+    top: 8.7vw;
+}
+.facestar{
+    position: absolute;
+    top: 4vw;
+    width: 2.5vw;
+    height: 2.3vw;
+    // left: 52vw;
+}
+.stars5 {
+     left: 52vw;
+  }
+ .stars6 {
+    left: 49vw;
+  }
+  
+  .stars7 {
+    left: 46vw;
+  }
+  
+  .stars8 {
+    left: 43vw;
+  }
+  .txt1{
+    width: 60vw;
+    font-size: 2.7vw;
+ margin-top: 3vw;
+    margin-left: 2vw;
+  }
+  .elementimg1,.elementimg2,.elementimg3{
+    position: absolute;
+    top: 387vw;
+     }
+  .elementimg1{
+    left: 7vw;
+    width: 20vw;
+    height: 10vw;
+  }
+  .elementimg2{
+    left: 37vw;
+    width: 22vw;
+    height: 12vw;
+  }
+  .elementimg3{
+    left: 66vw;
+    width: 18vw;
+    height: 9vw;
+  }
+  .element-text1,.element-text2,.element-text3{
+    position: absolute;
+    top: 397vw;
+    font-size: 2.4vw;
+    font-weight: bold;
+  }
+  .element-text1{
+    left: 9vw;
+  }
+  .element-text2{
+    left: 35vw;
+  }
+  .element-text3{
+    left: 70vw;
+  }
+  .footer{
+    position: absolute;
+    width: 100%;
+    height: 35vw;
+    background-color: #000000;
+    top: 410vw;
+  }
+  .iconc{
+    position: absolute;
+    top: 27.6vw;
+    left: 41vw;
+  }
+  .footertxt{
+    position: absolute;
+    top: 30vw;
+    left: 44vw;
+    color: #FAFAFA;
+    font-size: 2vw;
+  }
+//   .navbar {
+//     background-color: transparent !important;
+//   }
+
+  
